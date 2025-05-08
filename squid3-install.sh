@@ -1,13 +1,13 @@
 #!/bin/bash
 
 ############################################################
-# Squid Proxy Installer
-# Author: Yujin Boby
-# Email: admin@serverOk.in
-# Github: https://github.com/serverok/squid-proxy-installer/
-# Web: https://serverok.in/squid
+# SKY Proxy Installer
+# Author: SKYRHRGTS
+# Email: admin@skyrhrgts.com
+# Github: https://github.com/skyrhrg/sky-proxy-installer/
+# Web: https://skyrhrgts.com/
 # If you need professional assistance, reach out to
-# https://serverok.in/contact
+# https://skyrhrgts.com/contact-us/
 ############################################################
 
 if [ `whoami` != root ]; then
@@ -222,8 +222,9 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 echo -e "${NC}"
-echo -e "${GREEN}Thank you for using ServerOk Squid Proxy Installer.${NC}"
+echo -e "${GREEN}Thank you for using SKYRHRGTS.com Proxy Service.${NC}"
 echo
-echo -e "${CYAN}To create a proxy user, run command: squid-add-user${NC}"
-echo -e "${CYAN}To change squid proxy port, see ${GREEN}https://serverok.in/how-to-change-port-of-squid-proxy-server${NC}"
+echo -e "${CYAN}Username : ${SQUID_USER}${NC}"
+echo -e "${CYAN}Password : ${SQUID_PW}${NC}"
+echo -e "${CYAN}Port : 3128${NC}"
 echo -e "${NC}"
